@@ -1,3 +1,4 @@
-[functions]
-  external_node_modules = ["express"]
-  node_bundler = "esbuild"
+[build]
+  functions = "functions"
+  publish = "build"
+  command = "npm run build"
